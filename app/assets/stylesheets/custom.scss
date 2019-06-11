@@ -1,6 +1,35 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+// General
+
+body {
+  padding-top: 50px;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h2 {
+  margin-bottom: 10px;
+}
+
+.center h3 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+// Header Specific
+
 #logo {
   float: left;
   margin-right: 10px;
@@ -15,4 +44,37 @@
 #logo:hover {
   color: #fff;
   text-decoration: none;
+}
+
+// Home Page
+#jumbo_home {
+  padding-top: 10%;
+  background: none
+}
+// Photo by Banter Snaps on Unsplash
+#jumbo_home::after {
+  content: "";
+  background: asset-data-url("road_img.jpg");
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+// Help Page
+
+
+#help_content::after {
+  content: "";
+  background: asset-data-url("road_img.jpg");
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
 }
