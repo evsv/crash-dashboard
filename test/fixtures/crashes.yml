@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  crash_date: 2019-06-11 15:59:16
+  crash_day_of_week: 1
+  crash_hour: 1
+  crash_month: 1
+  crash_type: MyString
+  injuries_fatal: 1
+  injuries_incapacitating: 1
+  injuries_no_indication: 1
+  injuries_non_incapacitating: 1
+  lighting_condition: MyString
+  prim_contributory_cause: MyString
+  rd_no: MyString
+
+two:
+  crash_date: 2019-06-11 15:59:16
+  crash_day_of_week: 1
+  crash_hour: 1
+  crash_month: 1
+  crash_type: MyString
+  injuries_fatal: 1
+  injuries_incapacitating: 1
+  injuries_no_indication: 1
+  injuries_non_incapacitating: 1
+  lighting_condition: MyString
+  prim_contributory_cause: MyString
+  rd_no: MyString
