@@ -1,2 +1,11 @@
-<h1>Dashboard#dataload</h1>
-<p>Find me in app/views/dashboard/dataload.html.erb</p>
+<div id="dl_content">
+  <div class="container">
+    <%= form_tag("/data_filter", method: "post") do %>
+    <%= label_tag(:dt, "Intervention Date:") %>
+    <%= date_field_tag(:dt) %>
+    <%= label_tag(:wndw, "Consideration Windows (in days):")%>
+    <%= number_field_tag(:wndw) %>
+    <%= submit_tag("Search") %>
+    <% end %>
+  </div>
+</div>
